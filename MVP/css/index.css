@@ -152,9 +152,30 @@ p {
   line-height: 1.4;
 }
 
+/* add bold to h2 */
+h2 {
+  font-weight: bold;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin: 0px 38px;
+}
+
+.jumbo {
+  margin: 30px 0px 15px 0px;
 }
 
 .top-content {
