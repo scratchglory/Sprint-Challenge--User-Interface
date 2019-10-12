@@ -261,6 +261,11 @@ footer nav a {
   border-bottom: 1px dashed black;
 }
 
+.section1 .about {
+  /* needs to be here because of border */
+  margin: 15px;
+}
+
 .section2 {
   margin: 20px 0px;
   display: flex;
@@ -271,14 +276,18 @@ footer nav a {
 .work,
 .places,
 .collab {
-  width: 45%;
+  width: 370px;
   padding-bottom: 20px;
   border-bottom: 1px dashed black;
+  margin: 15px;
 }
 
-.section2 .strategy,
-.places {
-  margin-right: auto;
+.button {
+  background: white;
+  border-color: black;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 12px;
 }
 
 .section3 {
