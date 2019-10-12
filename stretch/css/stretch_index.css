@@ -349,7 +349,7 @@ footer nav a {
 
 .form p,
 textarea {
-  margin: 15px 0px;
+  margin: 8px 0px;
 }
 
 .send {
@@ -366,5 +366,11 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
