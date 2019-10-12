@@ -275,3 +275,12 @@ footer nav a {
   padding-bottom: 20px;
   border-bottom: 1px dashed black;
 }
+
+.section2 .strategy,
+.places {
+  margin-right: auto;
+}
+
+.section3 {
+  margin: 35px 0px;
+}
