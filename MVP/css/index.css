@@ -256,4 +256,22 @@ footer nav a {
 }
 
 /* About Page */
-.section2
+.section1 {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.section2 {
+  margin: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section2 .strategy,
+.work,
+.places,
+.collab {
+  width: 45%;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
